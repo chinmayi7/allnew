@@ -1,0 +1,13 @@
+.border{
+    height: 50%;
+    width: 100%;
+}
+.box{
+    background-color:#000000;
+    height: 50%;
+}
+.size{
+    
+    height: 100px;
+width: 250px;
+}

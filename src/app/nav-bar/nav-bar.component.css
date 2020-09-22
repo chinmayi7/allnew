@@ -1,0 +1,49 @@
+.spacer {
+    flex: 1 1 auto;
+  }
+  
+.color:hover{
+  
+     color: #ffa931;
+     font-weight: bold;
+             -ms-transform: scale(1.5); /* IE 9 */
+        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        transform: scale(1.5); 
+      
+}
+
+      .position{
+        position:fixed
+      }
+.app-toolbar{
+  position: sticky;
+  position:  -webkit-sticky;
+  top: 0;
+  z-index: 1000;
+  background-color:#e3dfc8;
+  box-shadow: currentColor;
+  
+}
+.footer{
+ 
+  margin-top:200px;
+}
+.example-container {
+  width: 400px;
+  height: 200px;
+  margin: 10px;
+  border: 1px solid #555;
+}
+.page-footer font-small blue pt-4{
+  align-items: baseline;
+}
+.mat-sidenav-container{
+  height: 100%;
+}
+.mat-sidenav, mat-sidenav-content{
+  padding: 16px;
+}
+.mat-sidenav{
+  background-color: darkblue;
+  width: 200px;
+}

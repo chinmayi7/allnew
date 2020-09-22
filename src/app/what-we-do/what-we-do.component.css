@@ -1,0 +1,45 @@
+.size{
+    width: 100%;
+}
+.container {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+  }
+  
+  .container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+  }
+  .correct{
+  
+    width: 100%;
+    height: auto;
+  
+  }
+  
+  .add{
+      
+     
+      text-align: center;
+  }
+  .mat-display-3{
+      color: white;
+      background-color: grey;
+  }
+  
+  .mat-h1{
+    
+      text-align: center;
+      
+  }
+  .mat-display-3{
+    background-color: gray;
+    color: white;
+    text-align: center;
+  }
